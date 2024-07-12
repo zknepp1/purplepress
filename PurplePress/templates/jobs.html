@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Print Product Design</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/data-table-style.css"> <!-- Add this line -->
 </head>
-
+    
 <body>
     <div class="navbar">
         <a href="/">Home</a>
@@ -28,6 +29,11 @@
             <p>Focused School Photography</p>
             <div class="date">June 18, 2024</div>
         </div>
+    </div>
+
+    <!-- Placeholder for the data table -->
+    <div id="data-table" style="width: 100%; height: auto;">
+        {{ table | safe }}
     </div>
 
 </body>
